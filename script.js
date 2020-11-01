@@ -13,5 +13,6 @@ xhr.onreadystatechange = function() {
         document.getElementById('ajax').innerHTML = xhr.responseText;
     }
 };
+
 xhr.open('GET', 'sidebar.html');
 xhr.send();
