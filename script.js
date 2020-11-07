@@ -9,10 +9,9 @@
 
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
-    if(xhr.readyState === 4 && xhr.status === 200) {
+    xhr.readyState === 4 && xhr.status === 200 {
         document.getElementById('ajax').innerHTML = xhr.responseText;
     }
 };
-
-xhr.open('GET', 'sidebar.html');
+xhr.open('GET','sidebar.HTML');
 xhr.send();
